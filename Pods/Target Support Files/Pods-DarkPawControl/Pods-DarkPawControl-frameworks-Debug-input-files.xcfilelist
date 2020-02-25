@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-DarkPawControl/Pods-DarkPawControl-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework
+${BUILT_PRODUCTS_DIR}/SwiftWebSocket/SwiftWebSocket.framework
+${BUILT_PRODUCTS_DIR}/SwiftyZeroMQ/SwiftyZeroMQ.framework
