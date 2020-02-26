@@ -13,7 +13,10 @@ import SwiftWebSocket
 @objcMembers
 class ViewController: UIViewController {
 
+    @IBOutlet weak var statusLabel: UILabel!
+    
     @IBOutlet weak var previewImgeView: UIImageView!
+    
     
     private var controlClient: TCPClient?
     
@@ -26,7 +29,23 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         connect()
     }
-
+    
+    @IBAction func moveForward(_ sender: Any) {
+        let _ = controlClient?.send(data: Array("forward".utf8))
+    }
+    
+    @IBAction func moveBackward(_ sender: Any) {
+        let _ = controlClient?.send(data: Array("backward".utf8))
+    }
+    
+    @IBAction func rotateLeft(_ sender: Any) {
+        let _ = controlClient?.send(data: Array("left".utf8))
+    }
+    
+    @IBAction func rotateRight(_ sender: Any) {
+        let _ = controlClient?.send(data: Array("right".utf8))
+    }
+    
     private func connect() {
         controlClient = TCPClient(address: "192.168.1.67", port: 10223)
         
@@ -39,7 +58,7 @@ class ViewController: UIViewController {
             print("err:\(error.localizedDescription)")
         case .none:
             print("unknown err")
-        }   
+        }
     }
     
     private func initImageListener() {
