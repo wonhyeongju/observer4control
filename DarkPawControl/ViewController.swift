@@ -8,7 +8,6 @@
 
 import UIKit
 import SwiftSocket
-//import SwiftyZeroMQ
 import SwiftWebSocket
 
 @objcMembers
@@ -20,15 +19,12 @@ class ViewController: UIViewController {
     
     private var infoListener: TCPServer?
     
-    private var imageListener: TCPServer?
-    
-    //private var subscriber: SwiftyZeroMQ.Socket?
+    private var imageListener: WebSocket?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         connect()
-        //initImageListener()
     }
 
     private func connect() {
@@ -43,31 +39,25 @@ class ViewController: UIViewController {
             print("err:\(error.localizedDescription)")
         case .none:
             print("unknown err")
-        }
-        
+        }   
     }
     
     private func initImageListener() {
-        //DispatchQueue(label: "image.robot").async {
-            let ws = WebSocket("ws://192.168.1.67:5555")
-            
-            //ws.allowSelfSignedSSL = true
-            ws.event.open = {
-                print("opened")
-            }
-            ws.event.message = { message in
-                if let message = message as? [Byte] {
-                    if let base64String = String(data: Data(message),encoding: .utf8) {
-                        let dataDecoded = Data(base64Encoded: base64String, options: .ignoreUnknownCharacters)!
-                        DispatchQueue.main.async {
-                            self.previewImgeView.image = UIImage(data: dataDecoded)
-                        }
+        imageListener = WebSocket("ws://192.168.1.67:5555")
+        imageListener?.event.open = {
+            print("opened")
+        }
+        imageListener?.event.message = { message in
+            if let message = message as? [Byte] {
+                if let base64String = String(data: Data(message),encoding: .utf8) {
+                    let dataDecoded = Data(base64Encoded: base64String, options: .ignoreUnknownCharacters)!
+                    DispatchQueue.main.async {
+                        self.previewImgeView.image = UIImage(data: dataDecoded)
                     }
                 }
             }
-            //ws.delegate = self
-            ws.open()
-        //}
+        }
+        imageListener?.open()
     }
     
     private func initInfoListener() {
@@ -95,93 +85,6 @@ class ViewController: UIViewController {
            }
         }
     }
-//
-//    private func initImageListener() {
-//        DispatchQueue(label: "image.robot").async {
-//            do {
-//                let context = try SwiftyZeroMQ.Context()
-//                self.subscriber = try context.socket(.subscribe)
-//                //try self.subscriber?.setSubscribe("")
-//                try self.subscriber?.bind("tcp://127.0.0.1:5555")
-//                while true {
-//                    print("start get image")
-//                    let result = try? self.subscriber?.recv(bufferLength: 1024 * 10, options: .none)
-//
-//                    //let result = try? self.subscriber?.recv(options: .none)
-//                    //let result = try? self.subscriber?.recv()
-//                    print("start check image")
-//                    if let result = result {
-//                        print("image data: \(result)")
-//                    }
-//                }
-////                DispatchQueue.main.async {
-////                    Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.updateImage), userInfo: nil, repeats: true)
-////                }
-//                //while true {
-//
-//                //let result = try subscriber.recv
-//
-//                //}
-//            } catch {
-//                print("initImageListener err")
-//            }
-//        }
-//    }
-//
-//    @objc private func updateImage() {
-//        print("start get image")
-//        let result = try? self.subscriber?.recv(bufferLength: 1024 * 100, options: .dontWait)
-//        //let result = try? self.subscriber?.recv()
-//        print("start check image")
-//        if let result = result {
-//            print("image data: \(result)")
-//        }
-//    }
-    
-//    private func initImageListener() {
-//        DispatchQueue(label: "image.robot").async {
-//            self.imageListener = TCPServer(address: "127.0.0.1", port: 5555)
-//            switch self.imageListener?.listen() {
-//            case .success:
-//                print("imageListener accept start")
-//                if let client = self.imageListener?.accept() {
-//                    //defer { client.close() }
-//                    //var data = [Byte]()
-//                    while true {
-//                        print("start read image")
-//                        guard let data = client.read(1024 * 1000, timeout: 1) else {
-//                            print("skip read image")
-//                            continue
-//                        }
-//
-//                        print("data not nil: \(data)")
-//                        //data = data + tmp
-//                        //if data.count <= 0 {
-//                            print("divide data")
-//                            if let base64String = String(data: Data(data),encoding: .utf8) {
-//                                let dataDecoded = Data(base64Encoded: base64String, options: .ignoreUnknownCharacters)!
-//                                //data.removeAll()
-//                                DispatchQueue.main.async {
-//                                    self.previewImgeView.image = UIImage(data: dataDecoded)
-//                                }
-//                            } else {
-//                                print("failed to base64String data")
-//                                //data.removeAll()
-//                            }
-//                        //} else {
-//                            print("recived data")
-//                        //}
-//                    }
-//                } else {
-//                    print("imageListener accept error")
-//                }
-//            case .failure(let error):
-//                print("imageListener err:\(error.localizedDescription)")
-//            case .none:
-//                print("imageListener unknown err")
-//           }
-//        }
-//    }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
@@ -190,26 +93,3 @@ class ViewController: UIViewController {
         imageListener?.close()
     }
 }
-
-//extension ViewController: WebSocketDelegate {
-//    func webSocketOpen() {
-//        print("opened")
-//    }
-//
-//    func webSocketClose(_ code: Int, reason: String, wasClean: Bool) {
-//        print("closed")
-//    }
-//
-//    func webSocketError(_ error: NSError) {
-//        print("error")
-//    }
-//
-//    @objc func webSocketMessageData(_ data: Data) {
-//        print("message is data")
-//    }
-//
-//    @objc func webSocketMessageText(_ text: String) {
-//        print("message is text")
-//    }
-//}
-
