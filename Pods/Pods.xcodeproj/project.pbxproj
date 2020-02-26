@@ -7,56 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0544F9E89492D7069C395D627D70809F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		098B1C9EB1EB0F9E1711AF01F9FC81B6 /* Pods-DarkPawControlTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 237CD6BC193EBF1D5E1D108851C26B62 /* Pods-DarkPawControlTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CE040898668F9FA667D4BAD267ED981 /* SocketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3349ED0707835AF0749C6A08CBC16EDC /* SocketType.swift */; };
 		10FF98D32189D045D89683CE1D2CE9FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		14B779E7E4137138703BC3CABEA7607E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1FB8F2D8CBB46AF52DA74D61E9919F55 /* Pods-DarkPawControl-DarkPawControlUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CC72B421404541C80B0A76729B589D /* Pods-DarkPawControl-DarkPawControlUITests-dummy.m */; };
-		2232156A4DC1E00AC1E2E43BCCAB5262 /* SwiftyZeroMQ-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0456E29355AB02F619D1772CE210461E /* SwiftyZeroMQ-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		240ACE179A82148644854195EFDB1021 /* Poller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91BD25590ED86BFC6643F4DF093B2BA /* Poller.swift */; };
-		26933DE790AD32659A054D491A443F2F /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = BED08A02C6EDFE4EEEF5F5C3B44AEDAA /* yudpsocket.c */; };
-		2C83B9A3ACF44D51AF546201B00A5DFF /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965530387F457E08F75A89C4AE58A095 /* Context.swift */; };
-		30AB79DCF6E7EF815BCA46A84D07BC78 /* SwiftyZeroMQ-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB383107F3426BB204583C38633017 /* SwiftyZeroMQ-dummy.m */; };
-		310F4A419C7777D411976A91A8977522 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C940F7C90218322B45F35EDC524CE1 /* Result.swift */; };
-		319C1BD7191F218C07BECD4672F06C5C /* SwiftWebSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB4320CD69C0A084652B6DB887FDC82D /* SwiftWebSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DA37C51859814BAD6F4AA239858038D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5798061C38925C89AF36DB6FBC263211 /* ZeroMQError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842264B5180B6935862AA4CCD5A16C92 /* ZeroMQError.swift */; };
-		590F90702C1E8FFBDE2750F2EB559F6B /* SwiftSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E42971A164146C742BBF45E5A4B1EE87 /* SwiftSocket-dummy.m */; };
-		5BB907C502A7DEFA00C3F7ECA55CAE2B /* SwiftSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B02757EEEF55227F259370C58EF44E9C /* SwiftSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71719E654327DF3FE268F5B592C6221C /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 15E9E1B2AA563A33BC53EB887DAC4959 /* ytcpsocket.c */; };
+		1FBA4B9198E3D4474EC5D32C90823CD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		231DA4DC424CCED5940A5079FDA52136 /* Pods-DarkPawControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 725F4EF80D4495FC3AEE1BBA567D2E48 /* Pods-DarkPawControl-dummy.m */; };
+		26933DE790AD32659A054D491A443F2F /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 75994054492B17C4A1D855F86B350504 /* yudpsocket.c */; };
+		310F4A419C7777D411976A91A8977522 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BD4246DC744224CEE62F633A5EC8F1 /* Result.swift */; };
+		319C1BD7191F218C07BECD4672F06C5C /* SwiftWebSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D12A0B97531BD393381618AD251F628 /* SwiftWebSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		590F90702C1E8FFBDE2750F2EB559F6B /* SwiftSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8745C74F2A393B41BF007768457E010C /* SwiftSocket-dummy.m */; };
+		5BB907C502A7DEFA00C3F7ECA55CAE2B /* SwiftSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58FA15322B995725D78233417149FF03 /* SwiftSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71719E654327DF3FE268F5B592C6221C /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CAA65999480609855EAD7C5DA8DCA08 /* ytcpsocket.c */; };
 		7889E2C2DBDFEB156A9EC6A520137A06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7B93E6DF54EC3B218566B89120CD26AA /* SwiftyZeroMQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F9ED2C7E0756AEE0D50C889A96D09 /* SwiftyZeroMQ.swift */; };
-		828325C31D1286CD2C42CF21CF7AD94A /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27140DF88368C16D152982014B7FA23 /* Socket.swift */; };
-		86CABF16414D74E81AF00E487F59B6E7 /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB884D5E27941FA4736BDF1A6525910 /* UDPClient.swift */; };
-		8E21B5699E12C965B8CEA743B543646D /* Pods-DarkPawControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD27E8FA12FA8C0F87B7661C665438E5 /* Pods-DarkPawControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F2660673D1DF8096FDB3E392F3B887F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8F980F1BDAC5DF57FC7C1A368E2ADE3F /* zmq.h in Headers */ = {isa = PBXBuildFile; fileRef = B19C349463B76042FEBFF4341D84F9D3 /* zmq.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F9C4D89B9E4648A85BA2AD7E2C4911F /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC17DACB414871248E2E732BB7C30D5 /* TCPClient.swift */; };
-		B708A89EEB3E2038DEB5099A4CCF80D3 /* SocketSendRecvOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C115D8BE4B68A4578F198C0117B449C /* SocketSendRecvOption.swift */; };
-		B81A56530E45ED373D40CDF71014976C /* Pods-DarkPawControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 725F4EF80D4495FC3AEE1BBA567D2E48 /* Pods-DarkPawControl-dummy.m */; };
+		86CABF16414D74E81AF00E487F59B6E7 /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53765515D582B7B824B5180B8193FFDC /* UDPClient.swift */; };
+		88DC9DD02F10D0D3B5C164C36E30AD73 /* Pods-DarkPawControl-DarkPawControlUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CC72B421404541C80B0A76729B589D /* Pods-DarkPawControl-DarkPawControlUITests-dummy.m */; };
+		9F9C4D89B9E4648A85BA2AD7E2C4911F /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFE3528A9BED35B6BC97F586FAAEF60 /* TCPClient.swift */; };
+		AA1BB68DBDB7C7FEFD828D0B72D0EC1B /* Pods-DarkPawControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD27E8FA12FA8C0F87B7661C665438E5 /* Pods-DarkPawControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA56257C3EE5FAAF074BDD3667CAFF11 /* Pods-DarkPawControlTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F7829A9FE3E0B71505B55FD2A61E3E /* Pods-DarkPawControlTests-dummy.m */; };
-		C0C3CC3B97A777C683A63385C3574ECC /* SwiftWebSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B36F8BB901228F80983A62AFC222BC5 /* SwiftWebSocket-dummy.m */; };
-		C5069777F55DB0344FF5416B27B9B87B /* SwiftyZeroMQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BB891CDFADCDD498973648D402E5A45 /* SwiftyZeroMQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D303472E6599B444367CC153A4F2DFDC /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03637CAA4CDBAFFE02F0B81F9E8A2CD /* Socket.swift */; };
-		D48EF3F295E0AFFEE13D3CECB1EC32F7 /* Pods-DarkPawControl-DarkPawControlUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E92A2071B615B660A83584F5A3FFE1A0 /* Pods-DarkPawControl-DarkPawControlUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA4234167AF6B3BD9AF8FDDD6549BA1D /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8037F7FCB682F642A48B97C595C3FE3 /* WebSocket.swift */; };
+		C0C3CC3B97A777C683A63385C3574ECC /* SwiftWebSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2909E5DE33C1BC2B3F6BCEF6572EDC /* SwiftWebSocket-dummy.m */; };
+		C371AB10514624C0E8B67C51D890A331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D303472E6599B444367CC153A4F2DFDC /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA38826A9B8B1E87188F8F9D609D87E /* Socket.swift */; };
+		F95A2A4919FCDC6CCDD34D3F6E80F955 /* Pods-DarkPawControl-DarkPawControlUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E92A2071B615B660A83584F5A3FFE1A0 /* Pods-DarkPawControl-DarkPawControlUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA4234167AF6B3BD9AF8FDDD6549BA1D /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702AE62057591A65746B4EEA421B782 /* WebSocket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		433D7C096387959DB66A3648121E6225 /* PBXContainerItemProxy */ = {
+		27C4D2793B43D653C5A0861E6D1A1C37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2098E99F31975F5C89523CC6EB58B9CC;
 			remoteInfo = SwiftSocket;
 		};
-		4E0E86EC111614B59683B7DDC81BDE19 /* PBXContainerItemProxy */ = {
+		2B32DD061DF8D1D945A8557B0F43B009 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A6AD2F873FE44AD77AB8EE9F86363AF3;
-			remoteInfo = SwiftyZeroMQ;
+			remoteGlobalIDString = 9505FF34F79769575272405588FC2B56;
+			remoteInfo = SwiftWebSocket;
+		};
+		5C732520BE80CC1E7F6E92F8CBEE1056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9505FF34F79769575272405588FC2B56;
+			remoteInfo = SwiftWebSocket;
 		};
 		5EC14C835628920EB7340621FDED29ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,28 +60,7 @@
 			remoteGlobalIDString = D5ED56F073409BE5EE73FEEC4581FD14;
 			remoteInfo = "Pods-DarkPawControl";
 		};
-		7651701D43DD390B266AC245B5F3A06B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9505FF34F79769575272405588FC2B56;
-			remoteInfo = SwiftWebSocket;
-		};
-		B8A0AFF8F2DCDE221A3DBFFF75DE54C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9505FF34F79769575272405588FC2B56;
-			remoteInfo = SwiftWebSocket;
-		};
-		E2EAAE48C82CDA4ED74714A36A812087 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A6AD2F873FE44AD77AB8EE9F86363AF3;
-			remoteInfo = SwiftyZeroMQ;
-		};
-		EEECDCDD9BB36E6D6CE3ACB0E54F5281 /* PBXContainerItemProxy */ = {
+		EC5CE4BDE201A6E20A559B3B1E81716A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -96,91 +70,66 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0456E29355AB02F619D1772CE210461E /* SwiftyZeroMQ-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyZeroMQ-umbrella.h"; sourceTree = "<group>"; };
 		04ED2897CCEE34EC9A632FDF9F3DBD5D /* Pods-DarkPawControlTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DarkPawControlTests.modulemap"; sourceTree = "<group>"; };
-		0976019C0683D52DBF606B37E739C680 /* SwiftSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSocket.xcconfig; sourceTree = "<group>"; };
-		15E9E1B2AA563A33BC53EB887DAC4959 /* ytcpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ytcpsocket.c; path = Sources/ytcpsocket.c; sourceTree = "<group>"; };
-		1914A4C2EFE0D386A36110E12FF43C74 /* SwiftSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-prefix.pch"; sourceTree = "<group>"; };
+		163E9E9EAA28E805E0C49CE5DBFB6D5F /* SwiftSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-prefix.pch"; sourceTree = "<group>"; };
 		22E06603D68363368A00184DE94418F4 /* Pods-DarkPawControl-DarkPawControlUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DarkPawControl-DarkPawControlUITests.modulemap"; sourceTree = "<group>"; };
 		237CD6BC193EBF1D5E1D108851C26B62 /* Pods-DarkPawControlTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DarkPawControlTests-umbrella.h"; sourceTree = "<group>"; };
-		293438D7FAEB2B34C68D5DC04D5EB980 /* SwiftyZeroMQ.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyZeroMQ.modulemap; sourceTree = "<group>"; };
 		2B165EC271D90EEE9AE663CEF4CA2A16 /* Pods-DarkPawControl-DarkPawControlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DarkPawControl-DarkPawControlUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D78C24AC98DD6CFBCDC34088A5A88E6 /* Pods-DarkPawControl-DarkPawControlUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DarkPawControl-DarkPawControlUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3349ED0707835AF0749C6A08CBC16EDC /* SocketType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketType.swift; path = Sources/SocketType.swift; sourceTree = "<group>"; };
 		3745BE976A7B84255815BA3C4BD871FD /* Pods-DarkPawControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DarkPawControl.modulemap"; sourceTree = "<group>"; };
-		39C940F7C90218322B45F35EDC524CE1 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
 		3A59C9FE3D98CF2152E03CFA05A85BFC /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSocket.framework; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B36F8BB901228F80983A62AFC222BC5 /* SwiftWebSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftWebSocket-dummy.m"; sourceTree = "<group>"; };
-		3BB891CDFADCDD498973648D402E5A45 /* SwiftyZeroMQ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyZeroMQ.h; path = Sources/SwiftyZeroMQ.h; sourceTree = "<group>"; };
+		3EFE3528A9BED35B6BC97F586FAAEF60 /* TCPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPClient.swift; path = Sources/TCPClient.swift; sourceTree = "<group>"; };
 		415A4496DE8FAEFE550B49FF01FE4DFC /* Pods-DarkPawControl-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DarkPawControl-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B2909E5DE33C1BC2B3F6BCEF6572EDC /* SwiftWebSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftWebSocket-dummy.m"; sourceTree = "<group>"; };
 		4D36E0A0C547F8DF8211DA8BFBD5A0A3 /* Pods-DarkPawControl-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DarkPawControl-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4D67E1B29D9B7C7E7EA38D5AE56CDFD4 /* Pods-DarkPawControlTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DarkPawControlTests-Info.plist"; sourceTree = "<group>"; };
-		4EB884D5E27941FA4736BDF1A6525910 /* UDPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UDPClient.swift; path = Sources/UDPClient.swift; sourceTree = "<group>"; };
-		4EC17DACB414871248E2E732BB7C30D5 /* TCPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPClient.swift; path = Sources/TCPClient.swift; sourceTree = "<group>"; };
-		59B4C76741E26750FE920CEE9C031062 /* SwiftWebSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftWebSocket.xcconfig; sourceTree = "<group>"; };
+		5275C9CFD027FE9932B94462795A0B6E /* SwiftWebSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftWebSocket.modulemap; sourceTree = "<group>"; };
+		53765515D582B7B824B5180B8193FFDC /* UDPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UDPClient.swift; path = Sources/UDPClient.swift; sourceTree = "<group>"; };
+		58FA15322B995725D78233417149FF03 /* SwiftSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-umbrella.h"; sourceTree = "<group>"; };
+		5A579326BF90F85370722D3832B40E77 /* SwiftWebSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftWebSocket-prefix.pch"; sourceTree = "<group>"; };
 		5D0A01A37A3B1E3A585E6C1CAA2D75AB /* Pods-DarkPawControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DarkPawControlTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F62A05293B93C50EB37CEA7B04D04E8 /* Pods-DarkPawControl-DarkPawControlUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DarkPawControl-DarkPawControlUITests.release.xcconfig"; sourceTree = "<group>"; };
 		61901AB67FE160B3863EA1258F5F3E27 /* Pods-DarkPawControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DarkPawControl-Info.plist"; sourceTree = "<group>"; };
-		6C115D8BE4B68A4578F198C0117B449C /* SocketSendRecvOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketSendRecvOption.swift; path = Sources/SocketSendRecvOption.swift; sourceTree = "<group>"; };
+		64BD4246DC744224CEE62F633A5EC8F1 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
 		725F4EF80D4495FC3AEE1BBA567D2E48 /* Pods-DarkPawControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DarkPawControl-dummy.m"; sourceTree = "<group>"; };
+		75994054492B17C4A1D855F86B350504 /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yudpsocket.c; path = Sources/yudpsocket.c; sourceTree = "<group>"; };
 		76CC72B421404541C80B0A76729B589D /* Pods-DarkPawControl-DarkPawControlUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DarkPawControl-DarkPawControlUITests-dummy.m"; sourceTree = "<group>"; };
-		787E13AF36FD1CE687BCE526842FDC1E /* libzmq-ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libzmq-ios.a"; path = "Libraries/libzmq-ios.a"; sourceTree = "<group>"; };
 		78F7829A9FE3E0B71505B55FD2A61E3E /* Pods-DarkPawControlTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DarkPawControlTests-dummy.m"; sourceTree = "<group>"; };
-		7BF410D85A523517EC940B509AC0E3DB /* SwiftyZeroMQ-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyZeroMQ-prefix.pch"; sourceTree = "<group>"; };
 		7E431AF7567AA4C537DC58D1AC04547C /* Pods-DarkPawControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DarkPawControl.debug.xcconfig"; sourceTree = "<group>"; };
-		842264B5180B6935862AA4CCD5A16C92 /* ZeroMQError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZeroMQError.swift; path = Sources/ZeroMQError.swift; sourceTree = "<group>"; };
-		85ECE51FD855AF1EC16F909F04EA9860 /* SwiftWebSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftWebSocket.modulemap; sourceTree = "<group>"; };
-		8ACB383107F3426BB204583C38633017 /* SwiftyZeroMQ-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyZeroMQ-dummy.m"; sourceTree = "<group>"; };
-		8B77836A66AA597753D6C34CF7021A6B /* SwiftyZeroMQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyZeroMQ.framework; path = SwiftyZeroMQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8745C74F2A393B41BF007768457E010C /* SwiftSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSocket-dummy.m"; sourceTree = "<group>"; };
 		8C51049269333FB98D214E3FDE9BF658 /* Pods_DarkPawControl_DarkPawControlUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DarkPawControl_DarkPawControlUITests.framework; path = "Pods-DarkPawControl-DarkPawControlUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		950F9ED2C7E0756AEE0D50C889A96D09 /* SwiftyZeroMQ.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyZeroMQ.swift; path = Sources/SwiftyZeroMQ.swift; sourceTree = "<group>"; };
-		965530387F457E08F75A89C4AE58A095 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Sources/Context.swift; sourceTree = "<group>"; };
+		9CAA65999480609855EAD7C5DA8DCA08 /* ytcpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ytcpsocket.c; path = Sources/ytcpsocket.c; sourceTree = "<group>"; };
+		9D12A0B97531BD393381618AD251F628 /* SwiftWebSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftWebSocket-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25DCFD13D5C7687CCCD217BDFC3C70B /* Pods-DarkPawControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DarkPawControlTests.release.xcconfig"; sourceTree = "<group>"; };
-		A91BD25590ED86BFC6643F4DF093B2BA /* Poller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poller.swift; path = Sources/Poller.swift; sourceTree = "<group>"; };
 		ACA425E9E7F98A619CC8986CD14E5067 /* Pods_DarkPawControlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DarkPawControlTests.framework; path = "Pods-DarkPawControlTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B02757EEEF55227F259370C58EF44E9C /* SwiftSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-umbrella.h"; sourceTree = "<group>"; };
+		ADCC346BDDE290E6F647BCA17C8A0E34 /* SwiftSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSocket.modulemap; sourceTree = "<group>"; };
+		B029821C0821D2A796E74960EED270DD /* SwiftSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSocket-Info.plist"; sourceTree = "<group>"; };
 		B0F1D1904B7636F65DF9CEFDF9B3ECC7 /* Pods_DarkPawControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DarkPawControl.framework; path = "Pods-DarkPawControl.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B19C349463B76042FEBFF4341D84F9D3 /* zmq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zmq.h; path = Sources/zmq.h; sourceTree = "<group>"; };
-		B1EE357FFAAAB8BF8B9E019AC1C81E0E /* SwiftWebSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftWebSocket-Info.plist"; sourceTree = "<group>"; };
 		B8099E2F9EA7D5920FDFE3449B78C79E /* Pods-DarkPawControl-DarkPawControlUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DarkPawControl-DarkPawControlUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B8184B6A63947825FAB631F89F97F72D /* Pods-DarkPawControl-DarkPawControlUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DarkPawControl-DarkPawControlUITests-frameworks.sh"; sourceTree = "<group>"; };
-		BB4320CD69C0A084652B6DB887FDC82D /* SwiftWebSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftWebSocket-umbrella.h"; sourceTree = "<group>"; };
 		BC58D84FD643F34BCC23C6458769DEA0 /* Pods-DarkPawControlTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DarkPawControlTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BD85C547B654AA9121E08A200859675C /* SwiftWebSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftWebSocket.framework; path = SwiftWebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BED08A02C6EDFE4EEEF5F5C3B44AEDAA /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yudpsocket.c; path = Sources/yudpsocket.c; sourceTree = "<group>"; };
-		BF0E92A329A0F64062C8559E60A41798 /* SwiftyZeroMQ.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyZeroMQ.xcconfig; sourceTree = "<group>"; };
-		C1EAB958325CCB494FDC203D3F5E2C7B /* SwiftSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSocket.modulemap; sourceTree = "<group>"; };
-		C8037F7FCB682F642A48B97C595C3FE3 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
+		CE3851B770F7682F5B8A900CAED7FA6B /* SwiftWebSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftWebSocket.xcconfig; sourceTree = "<group>"; };
 		D12BC56ED44DE5672371AAACE0274695 /* Pods-DarkPawControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DarkPawControl.release.xcconfig"; sourceTree = "<group>"; };
 		D1CA3BFECA21ECDFE1EBE62112BC48E4 /* Pods-DarkPawControl-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DarkPawControl-frameworks.sh"; sourceTree = "<group>"; };
-		D27140DF88368C16D152982014B7FA23 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket.swift; sourceTree = "<group>"; };
-		DBAC9BEF3F21A9E52D5C948E1300AB39 /* SwiftSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSocket-Info.plist"; sourceTree = "<group>"; };
-		E03637CAA4CDBAFFE02F0B81F9E8A2CD /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket.swift; sourceTree = "<group>"; };
-		E42971A164146C742BBF45E5A4B1EE87 /* SwiftSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSocket-dummy.m"; sourceTree = "<group>"; };
+		D702AE62057591A65746B4EEA421B782 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
+		DAC5436E09E8A2A8D90CD6B4673483F3 /* SwiftWebSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftWebSocket-Info.plist"; sourceTree = "<group>"; };
 		E92A2071B615B660A83584F5A3FFE1A0 /* Pods-DarkPawControl-DarkPawControlUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DarkPawControl-DarkPawControlUITests-umbrella.h"; sourceTree = "<group>"; };
+		EBA38826A9B8B1E87188F8F9D609D87E /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket.swift; sourceTree = "<group>"; };
 		ED114638109691B2C87CE4602DB5754F /* Pods-DarkPawControl-DarkPawControlUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DarkPawControl-DarkPawControlUITests-Info.plist"; sourceTree = "<group>"; };
-		F211EE7754206315397A9DA1469B77CE /* SwiftyZeroMQ-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyZeroMQ-Info.plist"; sourceTree = "<group>"; };
-		F67E6F9CFD0CC86F1547870DB35B6FC4 /* SwiftWebSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftWebSocket-prefix.pch"; sourceTree = "<group>"; };
 		F691F67F66A5491C801FF22B07F0625A /* Pods-DarkPawControlTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DarkPawControlTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6D1530E3F57B2A225C1CAF1A7685F8F /* SwiftSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSocket.xcconfig; sourceTree = "<group>"; };
 		FD27E8FA12FA8C0F87B7661C665438E5 /* Pods-DarkPawControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DarkPawControl-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3FD862ABC09DE966EBBEC25EEF6F7580 /* Frameworks */ = {
+		4A5E2178D531428050CB91A0EBE7C4FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F2660673D1DF8096FDB3E392F3B887F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C4D6F4C74A36DD5C6647D1A6A49FC08 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4DA37C51859814BAD6F4AA239858038D /* Foundation.framework in Frameworks */,
+				1FBA4B9198E3D4474EC5D32C90823CD5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,17 +157,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B762BEEA3265ACF07E68EB87D31A95F0 /* Frameworks */ = {
+		A9FCF3B4FB7A276BDA4D941BDA33BBEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0544F9E89492D7069C395D627D70809F /* Foundation.framework in Frameworks */,
+				C371AB10514624C0E8B67C51D890A331 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13BF6EAC126B80F16E14D52E23A87423 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADCC346BDDE290E6F647BCA17C8A0E34 /* SwiftSocket.modulemap */,
+				F6D1530E3F57B2A225C1CAF1A7685F8F /* SwiftSocket.xcconfig */,
+				8745C74F2A393B41BF007768457E010C /* SwiftSocket-dummy.m */,
+				B029821C0821D2A796E74960EED270DD /* SwiftSocket-Info.plist */,
+				163E9E9EAA28E805E0C49CE5DBFB6D5F /* SwiftSocket-prefix.pch */,
+				58FA15322B995725D78233417149FF03 /* SwiftSocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSocket";
+			sourceTree = "<group>";
+		};
+		3407F1E2EB1527DE6CB7968B316C1A22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A71E6654614801041E2F768FE3C84A9 /* SwiftSocket */,
+				A88FF9AC22985FB83851FF454E4ACA98 /* SwiftWebSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		57497E75117CFFD1724CF9607F5FCA04 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,61 +201,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5CF4933A54E12716A0EE2ACE09F52FCE /* SwiftyZeroMQ */ = {
+		5E0C328CB4915AE5745650E9505B1317 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				965530387F457E08F75A89C4AE58A095 /* Context.swift */,
-				A91BD25590ED86BFC6643F4DF093B2BA /* Poller.swift */,
-				D27140DF88368C16D152982014B7FA23 /* Socket.swift */,
-				6C115D8BE4B68A4578F198C0117B449C /* SocketSendRecvOption.swift */,
-				3349ED0707835AF0749C6A08CBC16EDC /* SocketType.swift */,
-				3BB891CDFADCDD498973648D402E5A45 /* SwiftyZeroMQ.h */,
-				950F9ED2C7E0756AEE0D50C889A96D09 /* SwiftyZeroMQ.swift */,
-				842264B5180B6935862AA4CCD5A16C92 /* ZeroMQError.swift */,
-				B19C349463B76042FEBFF4341D84F9D3 /* zmq.h */,
-				852189E0261BE4CF1C6FD379C4CBE7C9 /* Frameworks */,
-				D27FBCA01A3ABC2CD63A2E6F018DD726 /* Support Files */,
+				B0F1D1904B7636F65DF9CEFDF9B3ECC7 /* Pods_DarkPawControl.framework */,
+				8C51049269333FB98D214E3FDE9BF658 /* Pods_DarkPawControl_DarkPawControlUITests.framework */,
+				ACA425E9E7F98A619CC8986CD14E5067 /* Pods_DarkPawControlTests.framework */,
+				3A59C9FE3D98CF2152E03CFA05A85BFC /* SwiftSocket.framework */,
+				BD85C547B654AA9121E08A200859675C /* SwiftWebSocket.framework */,
 			);
-			name = SwiftyZeroMQ;
-			path = SwiftyZeroMQ;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		7760876E86B376F141ABD9B81591B20D /* Support Files */ = {
+		6A71E6654614801041E2F768FE3C84A9 /* SwiftSocket */ = {
 			isa = PBXGroup;
 			children = (
-				C1EAB958325CCB494FDC203D3F5E2C7B /* SwiftSocket.modulemap */,
-				0976019C0683D52DBF606B37E739C680 /* SwiftSocket.xcconfig */,
-				E42971A164146C742BBF45E5A4B1EE87 /* SwiftSocket-dummy.m */,
-				DBAC9BEF3F21A9E52D5C948E1300AB39 /* SwiftSocket-Info.plist */,
-				1914A4C2EFE0D386A36110E12FF43C74 /* SwiftSocket-prefix.pch */,
-				B02757EEEF55227F259370C58EF44E9C /* SwiftSocket-umbrella.h */,
+				64BD4246DC744224CEE62F633A5EC8F1 /* Result.swift */,
+				EBA38826A9B8B1E87188F8F9D609D87E /* Socket.swift */,
+				3EFE3528A9BED35B6BC97F586FAAEF60 /* TCPClient.swift */,
+				53765515D582B7B824B5180B8193FFDC /* UDPClient.swift */,
+				9CAA65999480609855EAD7C5DA8DCA08 /* ytcpsocket.c */,
+				75994054492B17C4A1D855F86B350504 /* yudpsocket.c */,
+				13BF6EAC126B80F16E14D52E23A87423 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftSocket";
-			sourceTree = "<group>";
-		};
-		7B4E9F8D670896935A9BB1BB8381E6F2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9A326D1F156851560A37B3727B124065 /* SwiftSocket */,
-				E5998FFAF3E32B523195CA85035F134A /* SwiftWebSocket */,
-				5CF4933A54E12716A0EE2ACE09F52FCE /* SwiftyZeroMQ */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		7D827D298EFC7D31FBAE586442E17121 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				85ECE51FD855AF1EC16F909F04EA9860 /* SwiftWebSocket.modulemap */,
-				59B4C76741E26750FE920CEE9C031062 /* SwiftWebSocket.xcconfig */,
-				3B36F8BB901228F80983A62AFC222BC5 /* SwiftWebSocket-dummy.m */,
-				B1EE357FFAAAB8BF8B9E019AC1C81E0E /* SwiftWebSocket-Info.plist */,
-				F67E6F9CFD0CC86F1547870DB35B6FC4 /* SwiftWebSocket-prefix.pch */,
-				BB4320CD69C0A084652B6DB887FDC82D /* SwiftWebSocket-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftWebSocket";
+			name = SwiftSocket;
+			path = SwiftSocket;
 			sourceTree = "<group>";
 		};
 		7FB651E07CE58171B3FEFF9574B313F6 /* Pods-DarkPawControl */ = {
@@ -303,27 +245,28 @@
 			path = "Target Support Files/Pods-DarkPawControl";
 			sourceTree = "<group>";
 		};
-		852189E0261BE4CF1C6FD379C4CBE7C9 /* Frameworks */ = {
+		A0A7B425DB3CB85EDC459894914F2251 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				787E13AF36FD1CE687BCE526842FDC1E /* libzmq-ios.a */,
+				5275C9CFD027FE9932B94462795A0B6E /* SwiftWebSocket.modulemap */,
+				CE3851B770F7682F5B8A900CAED7FA6B /* SwiftWebSocket.xcconfig */,
+				4B2909E5DE33C1BC2B3F6BCEF6572EDC /* SwiftWebSocket-dummy.m */,
+				DAC5436E09E8A2A8D90CD6B4673483F3 /* SwiftWebSocket-Info.plist */,
+				5A579326BF90F85370722D3832B40E77 /* SwiftWebSocket-prefix.pch */,
+				9D12A0B97531BD393381618AD251F628 /* SwiftWebSocket-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftWebSocket";
 			sourceTree = "<group>";
 		};
-		9A326D1F156851560A37B3727B124065 /* SwiftSocket */ = {
+		A88FF9AC22985FB83851FF454E4ACA98 /* SwiftWebSocket */ = {
 			isa = PBXGroup;
 			children = (
-				39C940F7C90218322B45F35EDC524CE1 /* Result.swift */,
-				E03637CAA4CDBAFFE02F0B81F9E8A2CD /* Socket.swift */,
-				4EC17DACB414871248E2E732BB7C30D5 /* TCPClient.swift */,
-				4EB884D5E27941FA4736BDF1A6525910 /* UDPClient.swift */,
-				15E9E1B2AA563A33BC53EB887DAC4959 /* ytcpsocket.c */,
-				BED08A02C6EDFE4EEEF5F5C3B44AEDAA /* yudpsocket.c */,
-				7760876E86B376F141ABD9B81591B20D /* Support Files */,
+				D702AE62057591A65746B4EEA421B782 /* WebSocket.swift */,
+				A0A7B425DB3CB85EDC459894914F2251 /* Support Files */,
 			);
-			name = SwiftSocket;
-			path = SwiftSocket;
+			name = SwiftWebSocket;
+			path = SwiftWebSocket;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -339,8 +282,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				7B4E9F8D670896935A9BB1BB8381E6F2 /* Pods */,
-				FC059E48D947B31A33710BBD65AD4134 /* Products */,
+				3407F1E2EB1527DE6CB7968B316C1A22 /* Pods */,
+				5E0C328CB4915AE5745650E9505B1317 /* Products */,
 				57497E75117CFFD1724CF9607F5FCA04 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -351,20 +294,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D27FBCA01A3ABC2CD63A2E6F018DD726 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				293438D7FAEB2B34C68D5DC04D5EB980 /* SwiftyZeroMQ.modulemap */,
-				BF0E92A329A0F64062C8559E60A41798 /* SwiftyZeroMQ.xcconfig */,
-				8ACB383107F3426BB204583C38633017 /* SwiftyZeroMQ-dummy.m */,
-				F211EE7754206315397A9DA1469B77CE /* SwiftyZeroMQ-Info.plist */,
-				7BF410D85A523517EC940B509AC0E3DB /* SwiftyZeroMQ-prefix.pch */,
-				0456E29355AB02F619D1772CE210461E /* SwiftyZeroMQ-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyZeroMQ";
 			sourceTree = "<group>";
 		};
 		E06FAC7B55F85084BB347D8E9EAEC543 /* Pods-DarkPawControl-DarkPawControlUITests */ = {
@@ -384,16 +313,6 @@
 			path = "Target Support Files/Pods-DarkPawControl-DarkPawControlUITests";
 			sourceTree = "<group>";
 		};
-		E5998FFAF3E32B523195CA85035F134A /* SwiftWebSocket */ = {
-			isa = PBXGroup;
-			children = (
-				C8037F7FCB682F642A48B97C595C3FE3 /* WebSocket.swift */,
-				7D827D298EFC7D31FBAE586442E17121 /* Support Files */,
-			);
-			name = SwiftWebSocket;
-			path = SwiftWebSocket;
-			sourceTree = "<group>";
-		};
 		E9F3A667FE586F594AE7E81E74D1F1F0 /* Pods-DarkPawControlTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -410,45 +329,22 @@
 			path = "Target Support Files/Pods-DarkPawControlTests";
 			sourceTree = "<group>";
 		};
-		FC059E48D947B31A33710BBD65AD4134 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B0F1D1904B7636F65DF9CEFDF9B3ECC7 /* Pods_DarkPawControl.framework */,
-				8C51049269333FB98D214E3FDE9BF658 /* Pods_DarkPawControl_DarkPawControlUITests.framework */,
-				ACA425E9E7F98A619CC8986CD14E5067 /* Pods_DarkPawControlTests.framework */,
-				3A59C9FE3D98CF2152E03CFA05A85BFC /* SwiftSocket.framework */,
-				BD85C547B654AA9121E08A200859675C /* SwiftWebSocket.framework */,
-				8B77836A66AA597753D6C34CF7021A6B /* SwiftyZeroMQ.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		054B026C0E7835F6A4709EE7DBE1E038 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D48EF3F295E0AFFEE13D3CECB1EC32F7 /* Pods-DarkPawControl-DarkPawControlUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3964BE1C07ABB1BA1B6DBF9ACFAA18A9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2232156A4DC1E00AC1E2E43BCCAB5262 /* SwiftyZeroMQ-umbrella.h in Headers */,
-				C5069777F55DB0344FF5416B27B9B87B /* SwiftyZeroMQ.h in Headers */,
-				8F980F1BDAC5DF57FC7C1A368E2ADE3F /* zmq.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6C69E23A66F333D284ECE52BB6C6C3E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				319C1BD7191F218C07BECD4672F06C5C /* SwiftWebSocket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9993F6B17CA4101D5C6E4B237FD5F771 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1BB68DBDB7C7FEFD828D0B72D0EC1B /* Pods-DarkPawControl-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,11 +364,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F75DF4D745E8E46F952C6BDD77545449 /* Headers */ = {
+		F8617E04076B134D11FD7DA37C7F1316 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E21B5699E12C965B8CEA743B543646D /* Pods-DarkPawControl-umbrella.h in Headers */,
+				F95A2A4919FCDC6CCDD34D3F6E80F955 /* Pods-DarkPawControl-DarkPawControlUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,24 +411,6 @@
 			productReference = BD85C547B654AA9121E08A200859675C /* SwiftWebSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A6AD2F873FE44AD77AB8EE9F86363AF3 /* SwiftyZeroMQ */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF30CD8A6DBD3B9255CDF810ABFC41D5 /* Build configuration list for PBXNativeTarget "SwiftyZeroMQ" */;
-			buildPhases = (
-				3964BE1C07ABB1BA1B6DBF9ACFAA18A9 /* Headers */,
-				B8D031DA92A12181EBB5D86AD962F801 /* Sources */,
-				B762BEEA3265ACF07E68EB87D31A95F0 /* Frameworks */,
-				622966178494DD34066AB9CE48DE3C11 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftyZeroMQ;
-			productName = SwiftyZeroMQ;
-			productReference = 8B77836A66AA597753D6C34CF7021A6B /* SwiftyZeroMQ.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		CC66A2C3ACCBCD841334615BF08AC970 /* Pods-DarkPawControlTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6778330B056018950014D4F2A18E547B /* Build configuration list for PBXNativeTarget "Pods-DarkPawControlTests" */;
@@ -554,19 +432,18 @@
 		};
 		D5ED56F073409BE5EE73FEEC4581FD14 /* Pods-DarkPawControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A5A8EB118C72A09A206EEB38E79D72E /* Build configuration list for PBXNativeTarget "Pods-DarkPawControl" */;
+			buildConfigurationList = 10A02F6CFCE2B8363D99FCEB0BBDF6AF /* Build configuration list for PBXNativeTarget "Pods-DarkPawControl" */;
 			buildPhases = (
-				F75DF4D745E8E46F952C6BDD77545449 /* Headers */,
-				32DF3A7860FE87054A91FEE1F316AD0C /* Sources */,
-				3FD862ABC09DE966EBBEC25EEF6F7580 /* Frameworks */,
-				2B4CA5E799914309CD7B4834D2C63406 /* Resources */,
+				9993F6B17CA4101D5C6E4B237FD5F771 /* Headers */,
+				E5093AFFE1190A3D95EB1D00DA4504EF /* Sources */,
+				4A5E2178D531428050CB91A0EBE7C4FA /* Frameworks */,
+				F7CA30470123AADFDFB07F479A8927A8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DB1C046C3AA76955729B6CA4946F05E1 /* PBXTargetDependency */,
-				A0CDCBB0F40C83C66BC909C44E1C7B03 /* PBXTargetDependency */,
-				DAFAC16DC7A4655F46AB4177A6F04867 /* PBXTargetDependency */,
+				A266309BEF57CE3F13741BFEB9232AAC /* PBXTargetDependency */,
+				6ABFA4F1EB46EE98D1F12D8D42EE2C8B /* PBXTargetDependency */,
 			);
 			name = "Pods-DarkPawControl";
 			productName = "Pods-DarkPawControl";
@@ -575,19 +452,18 @@
 		};
 		EA768DBC8F98A796826D1D3C43958354 /* Pods-DarkPawControl-DarkPawControlUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CE0F3177C366E940A9D5A9F6DD73036 /* Build configuration list for PBXNativeTarget "Pods-DarkPawControl-DarkPawControlUITests" */;
+			buildConfigurationList = 072E008557B6B6649E1FA2A36DD00AE1 /* Build configuration list for PBXNativeTarget "Pods-DarkPawControl-DarkPawControlUITests" */;
 			buildPhases = (
-				054B026C0E7835F6A4709EE7DBE1E038 /* Headers */,
-				5C29C6C410A7D0A1EC8D84003920DF9C /* Sources */,
-				5C4D6F4C74A36DD5C6647D1A6A49FC08 /* Frameworks */,
-				062B6BA9E0681CE7EB1E94F9392C40D0 /* Resources */,
+				F8617E04076B134D11FD7DA37C7F1316 /* Headers */,
+				934D05597D8E3B4BCD4E71E860D23294 /* Sources */,
+				A9FCF3B4FB7A276BDA4D941BDA33BBEB /* Frameworks */,
+				B5C474CDF33CBBB785EF6F9E5F0A943A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4F60A0685A8C017141717F0241798FA5 /* PBXTargetDependency */,
-				7FDBEB44F5AC0570343052EE303EE857 /* PBXTargetDependency */,
-				24C4B5AFDB059E22AE637324BEA0FD0D /* PBXTargetDependency */,
+				8ACE4A678DF474C50162AD55E544220A /* PBXTargetDependency */,
+				FCB33D7DD724D91FB989DF103EE3B94E /* PBXTargetDependency */,
 			);
 			name = "Pods-DarkPawControl-DarkPawControlUITests";
 			productName = "Pods-DarkPawControl-DarkPawControlUITests";
@@ -612,7 +488,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = FC059E48D947B31A33710BBD65AD4134 /* Products */;
+			productRefGroup = 5E0C328CB4915AE5745650E9505B1317 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -621,34 +497,12 @@
 				CC66A2C3ACCBCD841334615BF08AC970 /* Pods-DarkPawControlTests */,
 				2098E99F31975F5C89523CC6EB58B9CC /* SwiftSocket */,
 				9505FF34F79769575272405588FC2B56 /* SwiftWebSocket */,
-				A6AD2F873FE44AD77AB8EE9F86363AF3 /* SwiftyZeroMQ */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		062B6BA9E0681CE7EB1E94F9392C40D0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0739A7B96C0DAED1C098E87EC32DE5C9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B4CA5E799914309CD7B4834D2C63406 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		622966178494DD34066AB9CE48DE3C11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -663,6 +517,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A799B9D9919AAD2D9701B07CEE06C37E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C474CDF33CBBB785EF6F9E5F0A943A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CA30470123AADFDFB07F479A8927A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -686,28 +554,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32DF3A7860FE87054A91FEE1F316AD0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B81A56530E45ED373D40CDF71014976C /* Pods-DarkPawControl-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C29C6C410A7D0A1EC8D84003920DF9C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FB8F2D8CBB46AF52DA74D61E9919F55 /* Pods-DarkPawControl-DarkPawControlUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7C5D1347167E2AFD01B300CAF06F6B06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C0C3CC3B97A777C683A63385C3574ECC /* SwiftWebSocket-dummy.m in Sources */,
 				FA4234167AF6B3BD9AF8FDDD6549BA1D /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934D05597D8E3B4BCD4E71E860D23294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DC9DD02F10D0D3B5C164C36E30AD73 /* Pods-DarkPawControl-DarkPawControlUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,179 +579,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8D031DA92A12181EBB5D86AD962F801 /* Sources */ = {
+		E5093AFFE1190A3D95EB1D00DA4504EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C83B9A3ACF44D51AF546201B00A5DFF /* Context.swift in Sources */,
-				240ACE179A82148644854195EFDB1021 /* Poller.swift in Sources */,
-				828325C31D1286CD2C42CF21CF7AD94A /* Socket.swift in Sources */,
-				B708A89EEB3E2038DEB5099A4CCF80D3 /* SocketSendRecvOption.swift in Sources */,
-				0CE040898668F9FA667D4BAD267ED981 /* SocketType.swift in Sources */,
-				30AB79DCF6E7EF815BCA46A84D07BC78 /* SwiftyZeroMQ-dummy.m in Sources */,
-				7B93E6DF54EC3B218566B89120CD26AA /* SwiftyZeroMQ.swift in Sources */,
-				5798061C38925C89AF36DB6FBC263211 /* ZeroMQError.swift in Sources */,
+				231DA4DC424CCED5940A5079FDA52136 /* Pods-DarkPawControl-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		24C4B5AFDB059E22AE637324BEA0FD0D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyZeroMQ;
-			target = A6AD2F873FE44AD77AB8EE9F86363AF3 /* SwiftyZeroMQ */;
-			targetProxy = 4E0E86EC111614B59683B7DDC81BDE19 /* PBXContainerItemProxy */;
-		};
 		385EC3A366B4F7C6AC2EEDFB60B48C9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DarkPawControl";
 			target = D5ED56F073409BE5EE73FEEC4581FD14 /* Pods-DarkPawControl */;
 			targetProxy = 5EC14C835628920EB7340621FDED29ED /* PBXContainerItemProxy */;
 		};
-		4F60A0685A8C017141717F0241798FA5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftSocket;
-			target = 2098E99F31975F5C89523CC6EB58B9CC /* SwiftSocket */;
-			targetProxy = 433D7C096387959DB66A3648121E6225 /* PBXContainerItemProxy */;
-		};
-		7FDBEB44F5AC0570343052EE303EE857 /* PBXTargetDependency */ = {
+		6ABFA4F1EB46EE98D1F12D8D42EE2C8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftWebSocket;
 			target = 9505FF34F79769575272405588FC2B56 /* SwiftWebSocket */;
-			targetProxy = 7651701D43DD390B266AC245B5F3A06B /* PBXContainerItemProxy */;
+			targetProxy = 2B32DD061DF8D1D945A8557B0F43B009 /* PBXContainerItemProxy */;
 		};
-		A0CDCBB0F40C83C66BC909C44E1C7B03 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftWebSocket;
-			target = 9505FF34F79769575272405588FC2B56 /* SwiftWebSocket */;
-			targetProxy = B8A0AFF8F2DCDE221A3DBFFF75DE54C0 /* PBXContainerItemProxy */;
-		};
-		DAFAC16DC7A4655F46AB4177A6F04867 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyZeroMQ;
-			target = A6AD2F873FE44AD77AB8EE9F86363AF3 /* SwiftyZeroMQ */;
-			targetProxy = E2EAAE48C82CDA4ED74714A36A812087 /* PBXContainerItemProxy */;
-		};
-		DB1C046C3AA76955729B6CA4946F05E1 /* PBXTargetDependency */ = {
+		8ACE4A678DF474C50162AD55E544220A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftSocket;
 			target = 2098E99F31975F5C89523CC6EB58B9CC /* SwiftSocket */;
-			targetProxy = EEECDCDD9BB36E6D6CE3ACB0E54F5281 /* PBXContainerItemProxy */;
+			targetProxy = EC5CE4BDE201A6E20A559B3B1E81716A /* PBXContainerItemProxy */;
+		};
+		A266309BEF57CE3F13741BFEB9232AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSocket;
+			target = 2098E99F31975F5C89523CC6EB58B9CC /* SwiftSocket */;
+			targetProxy = 27C4D2793B43D653C5A0861E6D1A1C37 /* PBXContainerItemProxy */;
+		};
+		FCB33D7DD724D91FB989DF103EE3B94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftWebSocket;
+			target = 9505FF34F79769575272405588FC2B56 /* SwiftWebSocket */;
+			targetProxy = 5C732520BE80CC1E7F6E92F8CBEE1056 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04F287F3ECF46B3B3BD69545D799B206 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D12BC56ED44DE5672371AAACE0274695 /* Pods-DarkPawControl.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DarkPawControl/Pods-DarkPawControl-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DarkPawControl/Pods-DarkPawControl.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0F1E0634E25EA737E13B53005EE495BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF0E92A329A0F64062C8559E60A41798 /* SwiftyZeroMQ.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyZeroMQ/SwiftyZeroMQ-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyZeroMQ/SwiftyZeroMQ-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyZeroMQ/SwiftyZeroMQ.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyZeroMQ;
-				PRODUCT_NAME = SwiftyZeroMQ;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		155A015B7A640F06B7127E7A24854CA0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0976019C0683D52DBF606B37E739C680 /* SwiftSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftSocket/SwiftSocket-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
-				PRODUCT_MODULE_NAME = SwiftSocket;
-				PRODUCT_NAME = SwiftSocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2144929EDAEF899AA33B3D6717652A14 /* Release */ = {
+		057AD65046150511987C5848F44AEE4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5F62A05293B93C50EB37CEA7B04D04E8 /* Pods-DarkPawControl-DarkPawControlUITests.release.xcconfig */;
 			buildSettings = {
@@ -930,9 +662,44 @@
 			};
 			name = Release;
 		};
-		4D542C5A791C85A7BA614B5EF3E2A042 /* Debug */ = {
+		155A015B7A640F06B7127E7A24854CA0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E431AF7567AA4C537DC58D1AC04547C /* Pods-DarkPawControl.debug.xcconfig */;
+			baseConfigurationReference = F6D1530E3F57B2A225C1CAF1A7685F8F /* SwiftSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSocket/SwiftSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSocket;
+				PRODUCT_NAME = SwiftSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F5F71DDA23E4C0B8E6C915D9CE7CFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12BC56ED44DE5672371AAACE0274695 /* Pods-DarkPawControl.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -963,52 +730,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		65741D4A672A97A6BE732050842AFF7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B165EC271D90EEE9AE663CEF4CA2A16 /* Pods-DarkPawControl-DarkPawControlUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DarkPawControl-DarkPawControlUITests/Pods-DarkPawControl-DarkPawControlUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DarkPawControl-DarkPawControlUITests/Pods-DarkPawControl-DarkPawControlUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 		68214CE65F0BCE189FCA258837427B04 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0976019C0683D52DBF606B37E739C680 /* SwiftSocket.xcconfig */;
+			baseConfigurationReference = F6D1530E3F57B2A225C1CAF1A7685F8F /* SwiftSocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1039,42 +769,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		8ADEEA21A2691E8669EC6E82A8A4D64C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF0E92A329A0F64062C8559E60A41798 /* SwiftyZeroMQ.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyZeroMQ/SwiftyZeroMQ-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyZeroMQ/SwiftyZeroMQ-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyZeroMQ/SwiftyZeroMQ.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyZeroMQ;
-				PRODUCT_NAME = SwiftyZeroMQ;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1140,6 +834,44 @@
 			};
 			name = Debug;
 		};
+		AB8C9B24BCD925035A0466BDB29138E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B165EC271D90EEE9AE663CEF4CA2A16 /* Pods-DarkPawControl-DarkPawControlUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DarkPawControl-DarkPawControlUITests/Pods-DarkPawControl-DarkPawControlUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DarkPawControl-DarkPawControlUITests/Pods-DarkPawControl-DarkPawControlUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B7F31338A0E88CD800AEE5350698DAA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A25DCFD13D5C7687CCCD217BDFC3C70B /* Pods-DarkPawControlTests.release.xcconfig */;
@@ -1181,7 +913,7 @@
 		};
 		CBDBE05D304442A1EB6399759A6ED794 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59B4C76741E26750FE920CEE9C031062 /* SwiftWebSocket.xcconfig */;
+			baseConfigurationReference = CE3851B770F7682F5B8A900CAED7FA6B /* SwiftWebSocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1240,6 +972,44 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DarkPawControlTests/Pods-DarkPawControlTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3DCDFBD83B6BB985464591A9FB660CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E431AF7567AA4C537DC58D1AC04547C /* Pods-DarkPawControl.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DarkPawControl/Pods-DarkPawControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DarkPawControl/Pods-DarkPawControl.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1315,7 +1085,7 @@
 		};
 		F08E7229E0387852408516D8B0AC392A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59B4C76741E26750FE920CEE9C031062 /* SwiftWebSocket.xcconfig */;
+			baseConfigurationReference = CE3851B770F7682F5B8A900CAED7FA6B /* SwiftWebSocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1351,6 +1121,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		072E008557B6B6649E1FA2A36DD00AE1 /* Build configuration list for PBXNativeTarget "Pods-DarkPawControl-DarkPawControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8C9B24BCD925035A0466BDB29138E1 /* Debug */,
+				057AD65046150511987C5848F44AEE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A02F6CFCE2B8363D99FCEB0BBDF6AF /* Build configuration list for PBXNativeTarget "Pods-DarkPawControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3DCDFBD83B6BB985464591A9FB660CC /* Debug */,
+				3F5F71DDA23E4C0B8E6C915D9CE7CFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		227044261F7ABB997524D6854C4DA01A /* Build configuration list for PBXNativeTarget "SwiftSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1374,33 +1162,6 @@
 			buildConfigurations = (
 				D925CDDBAB3AF7AEBDCD624CC3677E69 /* Debug */,
 				B7F31338A0E88CD800AEE5350698DAA9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8CE0F3177C366E940A9D5A9F6DD73036 /* Build configuration list for PBXNativeTarget "Pods-DarkPawControl-DarkPawControlUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				65741D4A672A97A6BE732050842AFF7F /* Debug */,
-				2144929EDAEF899AA33B3D6717652A14 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9A5A8EB118C72A09A206EEB38E79D72E /* Build configuration list for PBXNativeTarget "Pods-DarkPawControl" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D542C5A791C85A7BA614B5EF3E2A042 /* Debug */,
-				04F287F3ECF46B3B3BD69545D799B206 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF30CD8A6DBD3B9255CDF810ABFC41D5 /* Build configuration list for PBXNativeTarget "SwiftyZeroMQ" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0F1E0634E25EA737E13B53005EE495BC /* Debug */,
-				8ADEEA21A2691E8669EC6E82A8A4D64C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,7 +8,6 @@ target 'DarkPawControl' do
   # Pods for DarkPawControl
   pod 'SwiftSocket', :git=>'https://github.com/swiftsocket/SwiftSocket.git'
   #pod 'OpenCV', '4.1.0'
-  pod 'SwiftyZeroMQ', :git=>'https://github.com/vrenetic-inc/SwiftyZeroMQ.git'
   pod 'SwiftWebSocket', :git=>'https://github.com/jurczo/SwiftWebSocket.git'
 
   target 'DarkPawControlTests' do

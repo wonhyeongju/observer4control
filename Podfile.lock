@@ -1,20 +1,16 @@
 PODS:
   - SwiftSocket (2.0.2)
   - SwiftWebSocket (2.7.0)
-  - SwiftyZeroMQ (1.0.26)
 
 DEPENDENCIES:
   - SwiftSocket (from `https://github.com/swiftsocket/SwiftSocket.git`)
   - SwiftWebSocket (from `https://github.com/jurczo/SwiftWebSocket.git`)
-  - SwiftyZeroMQ (from `https://github.com/vrenetic-inc/SwiftyZeroMQ.git`)
 
 EXTERNAL SOURCES:
   SwiftSocket:
     :git: https://github.com/swiftsocket/SwiftSocket.git
   SwiftWebSocket:
     :git: https://github.com/jurczo/SwiftWebSocket.git
-  SwiftyZeroMQ:
-    :git: https://github.com/vrenetic-inc/SwiftyZeroMQ.git
 
 CHECKOUT OPTIONS:
   SwiftSocket:
@@ -23,15 +19,11 @@ CHECKOUT OPTIONS:
   SwiftWebSocket:
     :commit: 762ef6ff7114e895c38ae3d0da486e726b331ca2
     :git: https://github.com/jurczo/SwiftWebSocket.git
-  SwiftyZeroMQ:
-    :commit: 31cbf969ea8b08f2d95acce203cbd96c5631281b
-    :git: https://github.com/vrenetic-inc/SwiftyZeroMQ.git
 
 SPEC CHECKSUMS:
   SwiftSocket: c8d482e867ae4d3eb4c769e9382e123c1f1f833b
   SwiftWebSocket: 612c9729fd503cb6b0b8b45390c788686dac306f
-  SwiftyZeroMQ: 1936cede95aec6dc7fa168b4b135e0f416e41416
 
-PODFILE CHECKSUM: 7f8cfa33a07abd34083359636b9df2e4d0d2cbbd
+PODFILE CHECKSUM: ece8bc7496c31b3ef74418453ffea0f75c314a3c
 
 COCOAPODS: 1.8.4
