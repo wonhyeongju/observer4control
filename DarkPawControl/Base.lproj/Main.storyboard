@@ -40,6 +40,7 @@
                                         </constraints>
                                         <state key="normal" image="arrow_forward"/>
                                         <connections>
+                                            <action selector="moveEventStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WaP-Qh-5mJ"/>
                                             <action selector="moveForward:" destination="BYZ-38-t0r" eventType="touchDown" id="YGy-H1-mgU"/>
                                         </connections>
                                     </button>
@@ -51,6 +52,7 @@
                                         <state key="normal" image="arrow_backward"/>
                                         <connections>
                                             <action selector="moveBackward:" destination="BYZ-38-t0r" eventType="touchDown" id="YDy-xW-Vg8"/>
+                                            <action selector="moveEventStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l7O-SJ-6Ef"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TnC-Zz-Zyq">
@@ -61,6 +63,7 @@
                                         <state key="normal" image="arrow_left"/>
                                         <connections>
                                             <action selector="rotateLeft:" destination="BYZ-38-t0r" eventType="touchDown" id="FO3-wQ-77A"/>
+                                            <action selector="turnEventStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="25w-ph-9RF"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bs1-eq-d7o">
@@ -71,6 +74,7 @@
                                         <state key="normal" image="arrow_right"/>
                                         <connections>
                                             <action selector="rotateRight:" destination="BYZ-38-t0r" eventType="touchDown" id="vGZ-k8-N11"/>
+                                            <action selector="turnEventStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m0M-c9-HGF"/>
                                         </connections>
                                     </button>
                                 </subviews>

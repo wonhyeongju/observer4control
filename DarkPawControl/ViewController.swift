@@ -17,12 +17,13 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var previewImgeView: UIImageView!
     
-    
     private var controlClient: TCPClient?
     
     private var infoListener: TCPServer?
     
     private var imageListener: WebSocket?
+    
+    private var moveEventFinished = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,19 +32,49 @@ class ViewController: UIViewController {
     }
     
     @IBAction func moveForward(_ sender: Any) {
-        let _ = controlClient?.send(data: Array("forward".utf8))
+        if moveEventFinished {
+            moveEventFinished = false
+            let _ = controlClient?.send(data: Array("forward".utf8))
+            delayMoveEventSetFinish()
+        }
     }
     
     @IBAction func moveBackward(_ sender: Any) {
-        let _ = controlClient?.send(data: Array("backward".utf8))
+        if moveEventFinished {
+            moveEventFinished = false
+            let _ = controlClient?.send(data: Array("backward".utf8))
+            delayMoveEventSetFinish()
+        }
     }
     
     @IBAction func rotateLeft(_ sender: Any) {
-        let _ = controlClient?.send(data: Array("left".utf8))
+        if moveEventFinished {
+            moveEventFinished = false
+            let _ = controlClient?.send(data: Array("left".utf8))
+            delayMoveEventSetFinish()
+        }
     }
     
     @IBAction func rotateRight(_ sender: Any) {
-        let _ = controlClient?.send(data: Array("right".utf8))
+        if moveEventFinished {
+            moveEventFinished = false
+            let _ = controlClient?.send(data: Array("right".utf8))
+            delayMoveEventSetFinish()
+        }
+    }
+    
+    @IBAction func moveEventStop(_ sender: Any) {
+        let _ = controlClient?.send(data: Array("DS".utf8))
+    }
+    
+    @IBAction func turnEventStop(_ sender: Any) {
+        let _ = controlClient?.send(data: Array("TS".utf8))
+    }
+    
+    private func delayMoveEventSetFinish() {
+        DispatchQueue.global().asyncAfter(deadline: .now() + 0.1) {
+            self.moveEventFinished = true
+        }
     }
     
     private func connect() {
@@ -90,7 +121,10 @@ class ViewController: UIViewController {
                         let response = client.read(1024, timeout: 0)
                         if let response = response {
                             if let infoStr = String(data:  Data(response),encoding: .utf8) {
-                                print(infoStr)
+                                let infoSet = infoStr.split(separator: " ")
+                                DispatchQueue.main.async { [weak self] in
+                                    self?.statusLabel?.text = "tmp: \(infoSet[0])%  cpu: \(infoSet[1])%  ram: \(infoSet[2])%"
+                                }
                             }
                         }
                     }
